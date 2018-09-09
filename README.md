@@ -10,3 +10,4 @@
     先使用flume将数据从日志文件中传输到kafka，
     kafka再将数据传给spark streaming(spark-streaming-kafka依赖包)，
     经过数据分析和处理后存入hbase(hbase可以通过table.incrementColumnValue方法一步操作完成取出数据，加上值，再存入)
+
